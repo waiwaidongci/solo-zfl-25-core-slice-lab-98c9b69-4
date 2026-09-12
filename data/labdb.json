@@ -1,0 +1,1672 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "name": "系统管理员",
+      "role": "admin",
+      "salt": "64e14c4b72a5ae4d24235980066514bb",
+      "hash": "177ecb1e0e8a4fb3dfc0a21724cb4d7efc47ed6a61010bba5029bbda1d12c6f1"
+    },
+    {
+      "username": "陆川",
+      "name": "陆川",
+      "role": "tech",
+      "salt": "7c9f541ce46f1e41d972994fad521174",
+      "hash": "5c93052c360a8ce29044424edb359a4c8a3ecc1981cb3e5e0216274418d54a24"
+    },
+    {
+      "username": "陈岩",
+      "name": "陈岩",
+      "role": "tech",
+      "salt": "3577f8f4196f36469e347e94180f015c",
+      "hash": "81fb69cfa46f338c25ab78f70942ffcd442a3ce79acbb332f020a3f14d76c0a6"
+    }
+  ],
+  "batches": [
+    {
+      "id": "B2026-010",
+      "project": "并发验证-mtytg5mi",
+      "borehole": "ZK-10",
+      "coreBox": "BX-31",
+      "depth": "50.0-51.0m",
+      "owner": "陆川",
+      "plannedDate": "2026-10-06",
+      "createdBy": "陆川",
+      "createdAt": "2026-09-12T20:06:50.651Z",
+      "slices": [
+        {
+          "id": "SL-mtytg5mi-C",
+          "method": "未染色",
+          "stageIndex": 2,
+          "status": "在制",
+          "observation": "",
+          "everReturned": false,
+          "activeReturn": null,
+          "reinspection": null,
+          "delivered": false,
+          "deliveredAt": null,
+          "deliveredBy": null
+        }
+      ]
+    },
+    {
+      "id": "B2026-009",
+      "project": "越权验证-mtytg5mi",
+      "borehole": "ZK-09",
+      "coreBox": "BX-30",
+      "depth": "100.0-101.0m",
+      "owner": "陆川",
+      "plannedDate": "2026-10-05",
+      "createdBy": "陆川",
+      "createdAt": "2026-09-12T20:06:50.649Z",
+      "slices": [
+        {
+          "id": "SL-mtytg5mi-X",
+          "method": "未染色",
+          "stageIndex": 1,
+          "status": "在制",
+          "observation": "",
+          "everReturned": false,
+          "activeReturn": null,
+          "reinspection": null,
+          "delivered": false,
+          "deliveredAt": null,
+          "deliveredBy": null
+        }
+      ]
+    },
+    {
+      "id": "B2026-008",
+      "project": "验证项目-mtytg5mi",
+      "borehole": "ZK-08",
+      "coreBox": "BX-21",
+      "depth": "210.5-215.0m",
+      "owner": "陆川",
+      "plannedDate": "2026-09-30",
+      "createdBy": "陆川",
+      "createdAt": "2026-09-12T20:06:50.617Z",
+      "slices": [
+        {
+          "id": "SL-mtytg5mi-01",
+          "method": "茜素红染色",
+          "stageIndex": 4,
+          "status": "在制",
+          "observation": "石英脉发育，黄铁矿化明显",
+          "everReturned": false,
+          "activeReturn": null,
+          "reinspection": null,
+          "delivered": true,
+          "deliveredAt": "2026-09-12T20:06:50.647Z",
+          "deliveredBy": "陆川"
+        },
+        {
+          "id": "SL-mtytg5mi-02",
+          "method": "未染色",
+          "stageIndex": 4,
+          "status": "在制",
+          "observation": "碳酸盐化，见细脉状方解石",
+          "everReturned": false,
+          "activeReturn": null,
+          "reinspection": null,
+          "delivered": true,
+          "deliveredAt": "2026-09-12T20:06:50.634Z",
+          "deliveredBy": "陆川"
+        },
+        {
+          "id": "SL-mtytg5mi-03",
+          "method": "荧光染色",
+          "stageIndex": 4,
+          "status": "在制",
+          "observation": "返工后镜下均匀",
+          "everReturned": true,
+          "activeReturn": {
+            "level": "严重",
+            "toStage": "研磨",
+            "reason": "磨片厚度不均，需重新研磨",
+            "by": "陆川",
+            "at": "2026-09-12T20:06:50.641Z"
+          },
+          "reinspection": {
+            "passed": true,
+            "by": "陆川",
+            "at": "2026-09-12T20:06:50.645Z",
+            "note": "返工合格"
+          },
+          "delivered": true,
+          "deliveredAt": "2026-09-12T20:06:50.646Z",
+          "deliveredBy": "陆川"
+        }
+      ]
+    },
+    {
+      "id": "B2026-007",
+      "project": "并发验证-mtytbqch",
+      "borehole": "ZK-10",
+      "coreBox": "BX-31",
+      "depth": "50.0-51.0m",
+      "owner": "陆川",
+      "plannedDate": "2026-10-06",
+      "createdBy": "陆川",
+      "createdAt": "2026-09-12T20:03:24.228Z",
+      "slices": [
+        {
+          "id": "SL-mtytbqch-C",
+          "method": "未染色",
+          "stageIndex": 2,
+          "status": "在制",
+          "observation": "",
+          "everReturned": false,
+          "activeReturn": null,
+          "reinspection": null,
+          "delivered": false,
+          "deliveredAt": null,
+          "deliveredBy": null
+        }
+      ]
+    },
+    {
+      "id": "B2026-006",
+      "project": "越权验证-mtytbqch",
+      "borehole": "ZK-09",
+      "coreBox": "BX-30",
+      "depth": "100.0-101.0m",
+      "owner": "陆川",
+      "plannedDate": "2026-10-05",
+      "createdBy": "陆川",
+      "createdAt": "2026-09-12T20:03:24.224Z",
+      "slices": [
+        {
+          "id": "SL-mtytbqch-X",
+          "method": "未染色",
+          "stageIndex": 1,
+          "status": "在制",
+          "observation": "",
+          "everReturned": false,
+          "activeReturn": null,
+          "reinspection": null,
+          "delivered": false,
+          "deliveredAt": null,
+          "deliveredBy": null
+        }
+      ]
+    },
+    {
+      "id": "B2026-005",
+      "project": "验证项目-mtytbqch",
+      "borehole": "ZK-08",
+      "coreBox": "BX-21",
+      "depth": "210.5-215.0m",
+      "owner": "陆川",
+      "plannedDate": "2026-09-30",
+      "createdBy": "陆川",
+      "createdAt": "2026-09-12T20:03:24.192Z",
+      "slices": [
+        {
+          "id": "SL-mtytbqch-01",
+          "method": "茜素红染色",
+          "stageIndex": 4,
+          "status": "在制",
+          "observation": "石英脉发育，黄铁矿化明显",
+          "everReturned": false,
+          "activeReturn": null,
+          "reinspection": null,
+          "delivered": true,
+          "deliveredAt": "2026-09-12T20:03:24.223Z",
+          "deliveredBy": "陆川"
+        },
+        {
+          "id": "SL-mtytbqch-02",
+          "method": "未染色",
+          "stageIndex": 4,
+          "status": "在制",
+          "observation": "碳酸盐化，见细脉状方解石",
+          "everReturned": false,
+          "activeReturn": null,
+          "reinspection": null,
+          "delivered": true,
+          "deliveredAt": "2026-09-12T20:03:24.211Z",
+          "deliveredBy": "陆川"
+        },
+        {
+          "id": "SL-mtytbqch-03",
+          "method": "荧光染色",
+          "stageIndex": 4,
+          "status": "在制",
+          "observation": "返工后镜下均匀",
+          "everReturned": true,
+          "activeReturn": {
+            "level": "严重",
+            "toStage": "研磨",
+            "reason": "磨片厚度不均，需重新研磨",
+            "by": "陆川",
+            "at": "2026-09-12T20:03:24.216Z"
+          },
+          "reinspection": {
+            "passed": true,
+            "by": "陆川",
+            "at": "2026-09-12T20:03:24.221Z",
+            "note": "返工合格"
+          },
+          "delivered": true,
+          "deliveredAt": "2026-09-12T20:03:24.222Z",
+          "deliveredBy": "陆川"
+        }
+      ]
+    },
+    {
+      "id": "B2026-004",
+      "project": "并发验证-mtytav79",
+      "borehole": "ZK-10",
+      "coreBox": "BX-31",
+      "depth": "50.0-51.0m",
+      "owner": "陆川",
+      "plannedDate": "2026-10-06",
+      "createdBy": "陆川",
+      "createdAt": "2026-09-12T20:02:43.875Z",
+      "slices": [
+        {
+          "id": "SL-mtytav79-C",
+          "method": "未染色",
+          "stageIndex": 2,
+          "status": "在制",
+          "observation": "",
+          "everReturned": false,
+          "activeReturn": null,
+          "reinspection": null,
+          "delivered": false,
+          "deliveredAt": null,
+          "deliveredBy": null
+        }
+      ]
+    },
+    {
+      "id": "B2026-003",
+      "project": "越权验证-mtytav79",
+      "borehole": "ZK-09",
+      "coreBox": "BX-30",
+      "depth": "100.0-101.0m",
+      "owner": "陆川",
+      "plannedDate": "2026-10-05",
+      "createdBy": "陆川",
+      "createdAt": "2026-09-12T20:02:43.870Z",
+      "slices": [
+        {
+          "id": "SL-mtytav79-X",
+          "method": "未染色",
+          "stageIndex": 1,
+          "status": "在制",
+          "observation": "",
+          "everReturned": false,
+          "activeReturn": null,
+          "reinspection": null,
+          "delivered": false,
+          "deliveredAt": null,
+          "deliveredBy": null
+        }
+      ]
+    },
+    {
+      "id": "B2026-002",
+      "project": "验证项目-mtytav79",
+      "borehole": "ZK-08",
+      "coreBox": "BX-21",
+      "depth": "210.5-215.0m",
+      "owner": "陆川",
+      "plannedDate": "2026-09-30",
+      "createdBy": "陆川",
+      "createdAt": "2026-09-12T20:02:43.834Z",
+      "slices": [
+        {
+          "id": "SL-mtytav79-01",
+          "method": "茜素红染色",
+          "stageIndex": 4,
+          "status": "在制",
+          "observation": "石英脉发育，黄铁矿化明显",
+          "everReturned": false,
+          "activeReturn": null,
+          "reinspection": null,
+          "delivered": true,
+          "deliveredAt": "2026-09-12T20:02:43.868Z",
+          "deliveredBy": "陆川"
+        },
+        {
+          "id": "SL-mtytav79-02",
+          "method": "未染色",
+          "stageIndex": 4,
+          "status": "在制",
+          "observation": "碳酸盐化，见细脉状方解石",
+          "everReturned": false,
+          "activeReturn": null,
+          "reinspection": null,
+          "delivered": true,
+          "deliveredAt": "2026-09-12T20:02:43.856Z",
+          "deliveredBy": "陆川"
+        },
+        {
+          "id": "SL-mtytav79-03",
+          "method": "荧光染色",
+          "stageIndex": 4,
+          "status": "在制",
+          "observation": "返工后镜下均匀",
+          "everReturned": true,
+          "activeReturn": {
+            "level": "严重",
+            "toStage": "研磨",
+            "reason": "磨片厚度不均，需重新研磨",
+            "by": "陆川",
+            "at": "2026-09-12T20:02:43.860Z"
+          },
+          "reinspection": {
+            "passed": true,
+            "by": "陆川",
+            "at": "2026-09-12T20:02:43.865Z",
+            "note": "返工合格"
+          },
+          "delivered": true,
+          "deliveredAt": "2026-09-12T20:02:43.867Z",
+          "deliveredBy": "陆川"
+        }
+      ]
+    },
+    {
+      "id": "B2026-001",
+      "project": "东岭铜矿薄片",
+      "borehole": "ZK-17",
+      "coreBox": "BX-09",
+      "depth": "128.4-128.8m",
+      "owner": "陆川",
+      "plannedDate": "2026-09-20",
+      "createdBy": "admin",
+      "createdAt": "2026-09-12T20:02:22.658Z",
+      "slices": [
+        {
+          "id": "DL-01",
+          "method": "茜素红染色",
+          "stageIndex": 0,
+          "status": "在制",
+          "observation": "",
+          "everReturned": false,
+          "activeReturn": null,
+          "reinspection": null,
+          "delivered": false,
+          "deliveredAt": null,
+          "deliveredBy": null
+        },
+        {
+          "id": "DL-02",
+          "method": "未染色",
+          "stageIndex": 0,
+          "status": "在制",
+          "observation": "",
+          "everReturned": false,
+          "activeReturn": null,
+          "reinspection": null,
+          "delivered": false,
+          "deliveredAt": null,
+          "deliveredBy": null
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "at": "2026-09-12T20:02:22.665Z",
+      "actor": "admin",
+      "action": "接收登记",
+      "batchId": "B2026-001",
+      "sliceId": null,
+      "summary": "接收批次 B2026-001（东岭铜矿薄片 / ZK-17 / BX-09），登记切片 2 片，负责人 陆川，计划 2026-09-20",
+      "detail": {
+        "plannedDate": "2026-09-20",
+        "sliceCount": 2
+      }
+    },
+    {
+      "id": 2,
+      "at": "2026-09-12T20:02:22.665Z",
+      "actor": "admin",
+      "action": "切片登记",
+      "batchId": "B2026-001",
+      "sliceId": "DL-01",
+      "summary": "切片 DL-01 登记，进入工序「取样」",
+      "detail": {
+        "method": "茜素红染色"
+      }
+    },
+    {
+      "id": 3,
+      "at": "2026-09-12T20:02:22.665Z",
+      "actor": "admin",
+      "action": "切片登记",
+      "batchId": "B2026-001",
+      "sliceId": "DL-02",
+      "summary": "切片 DL-02 登记，进入工序「取样」",
+      "detail": {
+        "method": "未染色"
+      }
+    },
+    {
+      "id": 4,
+      "at": "2026-09-12T20:02:43.834Z",
+      "actor": "陆川",
+      "action": "接收登记",
+      "batchId": "B2026-002",
+      "sliceId": null,
+      "summary": "接收批次 B2026-002（验证项目-mtytav79 / ZK-08 / BX-21），登记切片 3 片，负责人 陆川，计划 2026-09-30",
+      "detail": {
+        "plannedDate": "2026-09-30",
+        "sliceCount": 3
+      }
+    },
+    {
+      "id": 5,
+      "at": "2026-09-12T20:02:43.834Z",
+      "actor": "陆川",
+      "action": "切片登记",
+      "batchId": "B2026-002",
+      "sliceId": "SL-mtytav79-01",
+      "summary": "切片 SL-mtytav79-01 登记，进入工序「取样」",
+      "detail": {
+        "method": "茜素红染色"
+      }
+    },
+    {
+      "id": 6,
+      "at": "2026-09-12T20:02:43.834Z",
+      "actor": "陆川",
+      "action": "切片登记",
+      "batchId": "B2026-002",
+      "sliceId": "SL-mtytav79-02",
+      "summary": "切片 SL-mtytav79-02 登记，进入工序「取样」",
+      "detail": {
+        "method": "未染色"
+      }
+    },
+    {
+      "id": 7,
+      "at": "2026-09-12T20:02:43.834Z",
+      "actor": "陆川",
+      "action": "切片登记",
+      "batchId": "B2026-002",
+      "sliceId": "SL-mtytav79-03",
+      "summary": "切片 SL-mtytav79-03 登记，进入工序「取样」",
+      "detail": {
+        "method": "荧光染色"
+      }
+    },
+    {
+      "id": 8,
+      "at": "2026-09-12T20:02:43.844Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-002",
+      "sliceId": "SL-mtytav79-01",
+      "summary": "SL-mtytav79-01：取样 → 切割（依据：完成切割）",
+      "detail": {
+        "from": "取样",
+        "to": "切割",
+        "basis": "完成切割"
+      }
+    },
+    {
+      "id": 9,
+      "at": "2026-09-12T20:02:43.845Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-002",
+      "sliceId": "SL-mtytav79-01",
+      "summary": "SL-mtytav79-01：切割 → 研磨（依据：完成研磨）",
+      "detail": {
+        "from": "切割",
+        "to": "研磨",
+        "basis": "完成研磨"
+      }
+    },
+    {
+      "id": 10,
+      "at": "2026-09-12T20:02:43.847Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-002",
+      "sliceId": "SL-mtytav79-01",
+      "summary": "SL-mtytav79-01：研磨 → 染色（依据：完成染色）",
+      "detail": {
+        "from": "研磨",
+        "to": "染色",
+        "basis": "完成染色"
+      }
+    },
+    {
+      "id": 11,
+      "at": "2026-09-12T20:02:43.849Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-002",
+      "sliceId": "SL-mtytav79-01",
+      "summary": "SL-mtytav79-01：染色 → 观察，并记录观察（依据：完成观察）",
+      "detail": {
+        "from": "染色",
+        "to": "观察",
+        "basis": "完成观察"
+      }
+    },
+    {
+      "id": 12,
+      "at": "2026-09-12T20:02:43.850Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-002",
+      "sliceId": "SL-mtytav79-02",
+      "summary": "SL-mtytav79-02：取样 → 切割（依据：完成切割）",
+      "detail": {
+        "from": "取样",
+        "to": "切割",
+        "basis": "完成切割"
+      }
+    },
+    {
+      "id": 13,
+      "at": "2026-09-12T20:02:43.852Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-002",
+      "sliceId": "SL-mtytav79-02",
+      "summary": "SL-mtytav79-02：切割 → 研磨（依据：完成研磨）",
+      "detail": {
+        "from": "切割",
+        "to": "研磨",
+        "basis": "完成研磨"
+      }
+    },
+    {
+      "id": 14,
+      "at": "2026-09-12T20:02:43.853Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-002",
+      "sliceId": "SL-mtytav79-02",
+      "summary": "SL-mtytav79-02：研磨 → 染色（依据：完成染色）",
+      "detail": {
+        "from": "研磨",
+        "to": "染色",
+        "basis": "完成染色"
+      }
+    },
+    {
+      "id": 15,
+      "at": "2026-09-12T20:02:43.854Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-002",
+      "sliceId": "SL-mtytav79-02",
+      "summary": "SL-mtytav79-02：染色 → 观察（依据：完成观察）",
+      "detail": {
+        "from": "染色",
+        "to": "观察",
+        "basis": "完成观察"
+      }
+    },
+    {
+      "id": 16,
+      "at": "2026-09-12T20:02:43.856Z",
+      "actor": "陆川",
+      "action": "观察记录",
+      "batchId": "B2026-002",
+      "sliceId": "SL-mtytav79-02",
+      "summary": "SL-mtytav79-02 记录观察：碳酸盐化，见细脉状方解石",
+      "detail": {
+        "observation": "碳酸盐化，见细脉状方解石"
+      }
+    },
+    {
+      "id": 17,
+      "at": "2026-09-12T20:02:43.856Z",
+      "actor": "陆川",
+      "action": "交付",
+      "batchId": "B2026-002",
+      "sliceId": "SL-mtytav79-02",
+      "summary": "SL-mtytav79-02 由 陆川 交付",
+      "detail": {}
+    },
+    {
+      "id": 18,
+      "at": "2026-09-12T20:02:43.858Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-002",
+      "sliceId": "SL-mtytav79-03",
+      "summary": "SL-mtytav79-03：取样 → 切割（依据：完成切割）",
+      "detail": {
+        "from": "取样",
+        "to": "切割",
+        "basis": "完成切割"
+      }
+    },
+    {
+      "id": 19,
+      "at": "2026-09-12T20:02:43.859Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-002",
+      "sliceId": "SL-mtytav79-03",
+      "summary": "SL-mtytav79-03：切割 → 研磨（依据：完成研磨）",
+      "detail": {
+        "from": "切割",
+        "to": "研磨",
+        "basis": "完成研磨"
+      }
+    },
+    {
+      "id": 20,
+      "at": "2026-09-12T20:02:43.860Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-002",
+      "sliceId": "SL-mtytav79-03",
+      "summary": "SL-mtytav79-03：研磨 → 染色（依据：完成染色）",
+      "detail": {
+        "from": "研磨",
+        "to": "染色",
+        "basis": "完成染色"
+      }
+    },
+    {
+      "id": 21,
+      "at": "2026-09-12T20:02:43.860Z",
+      "actor": "陆川",
+      "action": "质量退回",
+      "batchId": "B2026-002",
+      "sliceId": "SL-mtytav79-03",
+      "summary": "SL-mtytav79-03 判定不合格（缺陷等级：严重）：从「染色」退回「研磨」，原因：磨片厚度不均，需重新研磨",
+      "detail": {
+        "level": "严重",
+        "from": "染色",
+        "to": "研磨",
+        "reason": "磨片厚度不均，需重新研磨"
+      }
+    },
+    {
+      "id": 22,
+      "at": "2026-09-12T20:02:43.862Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-002",
+      "sliceId": "SL-mtytav79-03",
+      "summary": "SL-mtytav79-03：研磨 → 染色（依据：完成染色）",
+      "detail": {
+        "from": "研磨",
+        "to": "染色",
+        "basis": "完成染色"
+      }
+    },
+    {
+      "id": 23,
+      "at": "2026-09-12T20:02:43.862Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-002",
+      "sliceId": "SL-mtytav79-03",
+      "summary": "SL-mtytav79-03：染色 → 观察，并记录观察（依据：完成观察）",
+      "detail": {
+        "from": "染色",
+        "to": "观察",
+        "basis": "完成观察"
+      }
+    },
+    {
+      "id": 24,
+      "at": "2026-09-12T20:02:43.864Z",
+      "actor": "陆川",
+      "action": "复检",
+      "batchId": "B2026-002",
+      "sliceId": "SL-mtytav79-03",
+      "summary": "SL-mtytav79-03 复检不通过：边缘仍有崩缺",
+      "detail": {
+        "passed": false,
+        "note": "边缘仍有崩缺"
+      }
+    },
+    {
+      "id": 25,
+      "at": "2026-09-12T20:02:43.865Z",
+      "actor": "陆川",
+      "action": "复检",
+      "batchId": "B2026-002",
+      "sliceId": "SL-mtytav79-03",
+      "summary": "SL-mtytav79-03 复检通过：返工合格",
+      "detail": {
+        "passed": true,
+        "note": "返工合格"
+      }
+    },
+    {
+      "id": 26,
+      "at": "2026-09-12T20:02:43.867Z",
+      "actor": "陆川",
+      "action": "交付",
+      "batchId": "B2026-002",
+      "sliceId": "SL-mtytav79-03",
+      "summary": "SL-mtytav79-03 由 陆川 交付",
+      "detail": {}
+    },
+    {
+      "id": 27,
+      "at": "2026-09-12T20:02:43.868Z",
+      "actor": "陆川",
+      "action": "交付",
+      "batchId": "B2026-002",
+      "sliceId": "SL-mtytav79-01",
+      "summary": "SL-mtytav79-01 由 陆川 交付",
+      "detail": {}
+    },
+    {
+      "id": 28,
+      "at": "2026-09-12T20:02:43.870Z",
+      "actor": "陆川",
+      "action": "接收登记",
+      "batchId": "B2026-003",
+      "sliceId": null,
+      "summary": "接收批次 B2026-003（越权验证-mtytav79 / ZK-09 / BX-30），登记切片 1 片，负责人 陆川，计划 2026-10-05",
+      "detail": {
+        "plannedDate": "2026-10-05",
+        "sliceCount": 1
+      }
+    },
+    {
+      "id": 29,
+      "at": "2026-09-12T20:02:43.870Z",
+      "actor": "陆川",
+      "action": "切片登记",
+      "batchId": "B2026-003",
+      "sliceId": "SL-mtytav79-X",
+      "summary": "切片 SL-mtytav79-X 登记，进入工序「取样」",
+      "detail": {
+        "method": "未染色"
+      }
+    },
+    {
+      "id": 30,
+      "at": "2026-09-12T20:02:43.872Z",
+      "actor": "admin",
+      "action": "工序推进",
+      "batchId": "B2026-003",
+      "sliceId": "SL-mtytav79-X",
+      "summary": "SL-mtytav79-X：取样 → 切割（依据：管理员代操作）",
+      "detail": {
+        "from": "取样",
+        "to": "切割",
+        "basis": "管理员代操作"
+      }
+    },
+    {
+      "id": 31,
+      "at": "2026-09-12T20:02:43.875Z",
+      "actor": "陆川",
+      "action": "接收登记",
+      "batchId": "B2026-004",
+      "sliceId": null,
+      "summary": "接收批次 B2026-004（并发验证-mtytav79 / ZK-10 / BX-31），登记切片 1 片，负责人 陆川，计划 2026-10-06",
+      "detail": {
+        "plannedDate": "2026-10-06",
+        "sliceCount": 1
+      }
+    },
+    {
+      "id": 32,
+      "at": "2026-09-12T20:02:43.875Z",
+      "actor": "陆川",
+      "action": "切片登记",
+      "batchId": "B2026-004",
+      "sliceId": "SL-mtytav79-C",
+      "summary": "切片 SL-mtytav79-C 登记，进入工序「取样」",
+      "detail": {
+        "method": "未染色"
+      }
+    },
+    {
+      "id": 33,
+      "at": "2026-09-12T20:02:43.876Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-004",
+      "sliceId": "SL-mtytav79-C",
+      "summary": "SL-mtytav79-C：取样 → 切割（依据：准备并发测试）",
+      "detail": {
+        "from": "取样",
+        "to": "切割",
+        "basis": "准备并发测试"
+      }
+    },
+    {
+      "id": 34,
+      "at": "2026-09-12T20:02:43.878Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-004",
+      "sliceId": "SL-mtytav79-C",
+      "summary": "SL-mtytav79-C：切割 → 研磨（依据：并发提交 1）",
+      "detail": {
+        "from": "切割",
+        "to": "研磨",
+        "basis": "并发提交 1"
+      }
+    },
+    {
+      "id": 35,
+      "at": "2026-09-12T20:03:24.192Z",
+      "actor": "陆川",
+      "action": "接收登记",
+      "batchId": "B2026-005",
+      "sliceId": null,
+      "summary": "接收批次 B2026-005（验证项目-mtytbqch / ZK-08 / BX-21），登记切片 3 片，负责人 陆川，计划 2026-09-30",
+      "detail": {
+        "plannedDate": "2026-09-30",
+        "sliceCount": 3
+      }
+    },
+    {
+      "id": 36,
+      "at": "2026-09-12T20:03:24.192Z",
+      "actor": "陆川",
+      "action": "切片登记",
+      "batchId": "B2026-005",
+      "sliceId": "SL-mtytbqch-01",
+      "summary": "切片 SL-mtytbqch-01 登记，进入工序「取样」",
+      "detail": {
+        "method": "茜素红染色"
+      }
+    },
+    {
+      "id": 37,
+      "at": "2026-09-12T20:03:24.192Z",
+      "actor": "陆川",
+      "action": "切片登记",
+      "batchId": "B2026-005",
+      "sliceId": "SL-mtytbqch-02",
+      "summary": "切片 SL-mtytbqch-02 登记，进入工序「取样」",
+      "detail": {
+        "method": "未染色"
+      }
+    },
+    {
+      "id": 38,
+      "at": "2026-09-12T20:03:24.192Z",
+      "actor": "陆川",
+      "action": "切片登记",
+      "batchId": "B2026-005",
+      "sliceId": "SL-mtytbqch-03",
+      "summary": "切片 SL-mtytbqch-03 登记，进入工序「取样」",
+      "detail": {
+        "method": "荧光染色"
+      }
+    },
+    {
+      "id": 39,
+      "at": "2026-09-12T20:03:24.200Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-005",
+      "sliceId": "SL-mtytbqch-01",
+      "summary": "SL-mtytbqch-01：取样 → 切割（依据：完成切割）",
+      "detail": {
+        "from": "取样",
+        "to": "切割",
+        "basis": "完成切割"
+      }
+    },
+    {
+      "id": 40,
+      "at": "2026-09-12T20:03:24.202Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-005",
+      "sliceId": "SL-mtytbqch-01",
+      "summary": "SL-mtytbqch-01：切割 → 研磨（依据：完成研磨）",
+      "detail": {
+        "from": "切割",
+        "to": "研磨",
+        "basis": "完成研磨"
+      }
+    },
+    {
+      "id": 41,
+      "at": "2026-09-12T20:03:24.203Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-005",
+      "sliceId": "SL-mtytbqch-01",
+      "summary": "SL-mtytbqch-01：研磨 → 染色（依据：完成染色）",
+      "detail": {
+        "from": "研磨",
+        "to": "染色",
+        "basis": "完成染色"
+      }
+    },
+    {
+      "id": 42,
+      "at": "2026-09-12T20:03:24.205Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-005",
+      "sliceId": "SL-mtytbqch-01",
+      "summary": "SL-mtytbqch-01：染色 → 观察，并记录观察（依据：完成观察）",
+      "detail": {
+        "from": "染色",
+        "to": "观察",
+        "basis": "完成观察"
+      }
+    },
+    {
+      "id": 43,
+      "at": "2026-09-12T20:03:24.206Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-005",
+      "sliceId": "SL-mtytbqch-02",
+      "summary": "SL-mtytbqch-02：取样 → 切割（依据：完成切割）",
+      "detail": {
+        "from": "取样",
+        "to": "切割",
+        "basis": "完成切割"
+      }
+    },
+    {
+      "id": 44,
+      "at": "2026-09-12T20:03:24.207Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-005",
+      "sliceId": "SL-mtytbqch-02",
+      "summary": "SL-mtytbqch-02：切割 → 研磨（依据：完成研磨）",
+      "detail": {
+        "from": "切割",
+        "to": "研磨",
+        "basis": "完成研磨"
+      }
+    },
+    {
+      "id": 45,
+      "at": "2026-09-12T20:03:24.208Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-005",
+      "sliceId": "SL-mtytbqch-02",
+      "summary": "SL-mtytbqch-02：研磨 → 染色（依据：完成染色）",
+      "detail": {
+        "from": "研磨",
+        "to": "染色",
+        "basis": "完成染色"
+      }
+    },
+    {
+      "id": 46,
+      "at": "2026-09-12T20:03:24.209Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-005",
+      "sliceId": "SL-mtytbqch-02",
+      "summary": "SL-mtytbqch-02：染色 → 观察（依据：完成观察）",
+      "detail": {
+        "from": "染色",
+        "to": "观察",
+        "basis": "完成观察"
+      }
+    },
+    {
+      "id": 47,
+      "at": "2026-09-12T20:03:24.210Z",
+      "actor": "陆川",
+      "action": "观察记录",
+      "batchId": "B2026-005",
+      "sliceId": "SL-mtytbqch-02",
+      "summary": "SL-mtytbqch-02 记录观察：碳酸盐化，见细脉状方解石",
+      "detail": {
+        "observation": "碳酸盐化，见细脉状方解石"
+      }
+    },
+    {
+      "id": 48,
+      "at": "2026-09-12T20:03:24.211Z",
+      "actor": "陆川",
+      "action": "交付",
+      "batchId": "B2026-005",
+      "sliceId": "SL-mtytbqch-02",
+      "summary": "SL-mtytbqch-02 由 陆川 交付",
+      "detail": {}
+    },
+    {
+      "id": 49,
+      "at": "2026-09-12T20:03:24.212Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-005",
+      "sliceId": "SL-mtytbqch-03",
+      "summary": "SL-mtytbqch-03：取样 → 切割（依据：完成切割）",
+      "detail": {
+        "from": "取样",
+        "to": "切割",
+        "basis": "完成切割"
+      }
+    },
+    {
+      "id": 50,
+      "at": "2026-09-12T20:03:24.213Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-005",
+      "sliceId": "SL-mtytbqch-03",
+      "summary": "SL-mtytbqch-03：切割 → 研磨（依据：完成研磨）",
+      "detail": {
+        "from": "切割",
+        "to": "研磨",
+        "basis": "完成研磨"
+      }
+    },
+    {
+      "id": 51,
+      "at": "2026-09-12T20:03:24.215Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-005",
+      "sliceId": "SL-mtytbqch-03",
+      "summary": "SL-mtytbqch-03：研磨 → 染色（依据：完成染色）",
+      "detail": {
+        "from": "研磨",
+        "to": "染色",
+        "basis": "完成染色"
+      }
+    },
+    {
+      "id": 52,
+      "at": "2026-09-12T20:03:24.216Z",
+      "actor": "陆川",
+      "action": "质量退回",
+      "batchId": "B2026-005",
+      "sliceId": "SL-mtytbqch-03",
+      "summary": "SL-mtytbqch-03 判定不合格（缺陷等级：严重）：从「染色」退回「研磨」，原因：磨片厚度不均，需重新研磨",
+      "detail": {
+        "level": "严重",
+        "from": "染色",
+        "to": "研磨",
+        "reason": "磨片厚度不均，需重新研磨"
+      }
+    },
+    {
+      "id": 53,
+      "at": "2026-09-12T20:03:24.217Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-005",
+      "sliceId": "SL-mtytbqch-03",
+      "summary": "SL-mtytbqch-03：研磨 → 染色（依据：完成染色）",
+      "detail": {
+        "from": "研磨",
+        "to": "染色",
+        "basis": "完成染色"
+      }
+    },
+    {
+      "id": 54,
+      "at": "2026-09-12T20:03:24.219Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-005",
+      "sliceId": "SL-mtytbqch-03",
+      "summary": "SL-mtytbqch-03：染色 → 观察，并记录观察（依据：完成观察）",
+      "detail": {
+        "from": "染色",
+        "to": "观察",
+        "basis": "完成观察"
+      }
+    },
+    {
+      "id": 55,
+      "at": "2026-09-12T20:03:24.220Z",
+      "actor": "陆川",
+      "action": "复检",
+      "batchId": "B2026-005",
+      "sliceId": "SL-mtytbqch-03",
+      "summary": "SL-mtytbqch-03 复检不通过：边缘仍有崩缺",
+      "detail": {
+        "passed": false,
+        "note": "边缘仍有崩缺"
+      }
+    },
+    {
+      "id": 56,
+      "at": "2026-09-12T20:03:24.221Z",
+      "actor": "陆川",
+      "action": "复检",
+      "batchId": "B2026-005",
+      "sliceId": "SL-mtytbqch-03",
+      "summary": "SL-mtytbqch-03 复检通过：返工合格",
+      "detail": {
+        "passed": true,
+        "note": "返工合格"
+      }
+    },
+    {
+      "id": 57,
+      "at": "2026-09-12T20:03:24.222Z",
+      "actor": "陆川",
+      "action": "交付",
+      "batchId": "B2026-005",
+      "sliceId": "SL-mtytbqch-03",
+      "summary": "SL-mtytbqch-03 由 陆川 交付",
+      "detail": {}
+    },
+    {
+      "id": 58,
+      "at": "2026-09-12T20:03:24.223Z",
+      "actor": "陆川",
+      "action": "交付",
+      "batchId": "B2026-005",
+      "sliceId": "SL-mtytbqch-01",
+      "summary": "SL-mtytbqch-01 由 陆川 交付",
+      "detail": {}
+    },
+    {
+      "id": 59,
+      "at": "2026-09-12T20:03:24.224Z",
+      "actor": "陆川",
+      "action": "接收登记",
+      "batchId": "B2026-006",
+      "sliceId": null,
+      "summary": "接收批次 B2026-006（越权验证-mtytbqch / ZK-09 / BX-30），登记切片 1 片，负责人 陆川，计划 2026-10-05",
+      "detail": {
+        "plannedDate": "2026-10-05",
+        "sliceCount": 1
+      }
+    },
+    {
+      "id": 60,
+      "at": "2026-09-12T20:03:24.224Z",
+      "actor": "陆川",
+      "action": "切片登记",
+      "batchId": "B2026-006",
+      "sliceId": "SL-mtytbqch-X",
+      "summary": "切片 SL-mtytbqch-X 登记，进入工序「取样」",
+      "detail": {
+        "method": "未染色"
+      }
+    },
+    {
+      "id": 61,
+      "at": "2026-09-12T20:03:24.226Z",
+      "actor": "admin",
+      "action": "工序推进",
+      "batchId": "B2026-006",
+      "sliceId": "SL-mtytbqch-X",
+      "summary": "SL-mtytbqch-X：取样 → 切割（依据：管理员代操作）",
+      "detail": {
+        "from": "取样",
+        "to": "切割",
+        "basis": "管理员代操作"
+      }
+    },
+    {
+      "id": 62,
+      "at": "2026-09-12T20:03:24.228Z",
+      "actor": "陆川",
+      "action": "接收登记",
+      "batchId": "B2026-007",
+      "sliceId": null,
+      "summary": "接收批次 B2026-007（并发验证-mtytbqch / ZK-10 / BX-31），登记切片 1 片，负责人 陆川，计划 2026-10-06",
+      "detail": {
+        "plannedDate": "2026-10-06",
+        "sliceCount": 1
+      }
+    },
+    {
+      "id": 63,
+      "at": "2026-09-12T20:03:24.228Z",
+      "actor": "陆川",
+      "action": "切片登记",
+      "batchId": "B2026-007",
+      "sliceId": "SL-mtytbqch-C",
+      "summary": "切片 SL-mtytbqch-C 登记，进入工序「取样」",
+      "detail": {
+        "method": "未染色"
+      }
+    },
+    {
+      "id": 64,
+      "at": "2026-09-12T20:03:24.229Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-007",
+      "sliceId": "SL-mtytbqch-C",
+      "summary": "SL-mtytbqch-C：取样 → 切割（依据：准备并发测试）",
+      "detail": {
+        "from": "取样",
+        "to": "切割",
+        "basis": "准备并发测试"
+      }
+    },
+    {
+      "id": 65,
+      "at": "2026-09-12T20:03:24.231Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-007",
+      "sliceId": "SL-mtytbqch-C",
+      "summary": "SL-mtytbqch-C：切割 → 研磨（依据：并发提交 1）",
+      "detail": {
+        "from": "切割",
+        "to": "研磨",
+        "basis": "并发提交 1"
+      }
+    },
+    {
+      "id": 66,
+      "at": "2026-09-12T20:06:50.617Z",
+      "actor": "陆川",
+      "action": "接收登记",
+      "batchId": "B2026-008",
+      "sliceId": null,
+      "summary": "接收批次 B2026-008（验证项目-mtytg5mi / ZK-08 / BX-21），登记切片 3 片，负责人 陆川，计划 2026-09-30",
+      "detail": {
+        "plannedDate": "2026-09-30",
+        "sliceCount": 3
+      }
+    },
+    {
+      "id": 67,
+      "at": "2026-09-12T20:06:50.617Z",
+      "actor": "陆川",
+      "action": "切片登记",
+      "batchId": "B2026-008",
+      "sliceId": "SL-mtytg5mi-01",
+      "summary": "切片 SL-mtytg5mi-01 登记，进入工序「取样」",
+      "detail": {
+        "method": "茜素红染色"
+      }
+    },
+    {
+      "id": 68,
+      "at": "2026-09-12T20:06:50.617Z",
+      "actor": "陆川",
+      "action": "切片登记",
+      "batchId": "B2026-008",
+      "sliceId": "SL-mtytg5mi-02",
+      "summary": "切片 SL-mtytg5mi-02 登记，进入工序「取样」",
+      "detail": {
+        "method": "未染色"
+      }
+    },
+    {
+      "id": 69,
+      "at": "2026-09-12T20:06:50.617Z",
+      "actor": "陆川",
+      "action": "切片登记",
+      "batchId": "B2026-008",
+      "sliceId": "SL-mtytg5mi-03",
+      "summary": "切片 SL-mtytg5mi-03 登记，进入工序「取样」",
+      "detail": {
+        "method": "荧光染色"
+      }
+    },
+    {
+      "id": 70,
+      "at": "2026-09-12T20:06:50.625Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-008",
+      "sliceId": "SL-mtytg5mi-01",
+      "summary": "SL-mtytg5mi-01：取样 → 切割（依据：完成切割）",
+      "detail": {
+        "from": "取样",
+        "to": "切割",
+        "basis": "完成切割"
+      }
+    },
+    {
+      "id": 71,
+      "at": "2026-09-12T20:06:50.626Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-008",
+      "sliceId": "SL-mtytg5mi-01",
+      "summary": "SL-mtytg5mi-01：切割 → 研磨（依据：完成研磨）",
+      "detail": {
+        "from": "切割",
+        "to": "研磨",
+        "basis": "完成研磨"
+      }
+    },
+    {
+      "id": 72,
+      "at": "2026-09-12T20:06:50.627Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-008",
+      "sliceId": "SL-mtytg5mi-01",
+      "summary": "SL-mtytg5mi-01：研磨 → 染色（依据：完成染色）",
+      "detail": {
+        "from": "研磨",
+        "to": "染色",
+        "basis": "完成染色"
+      }
+    },
+    {
+      "id": 73,
+      "at": "2026-09-12T20:06:50.628Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-008",
+      "sliceId": "SL-mtytg5mi-01",
+      "summary": "SL-mtytg5mi-01：染色 → 观察，并记录观察（依据：完成观察）",
+      "detail": {
+        "from": "染色",
+        "to": "观察",
+        "basis": "完成观察"
+      }
+    },
+    {
+      "id": 74,
+      "at": "2026-09-12T20:06:50.629Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-008",
+      "sliceId": "SL-mtytg5mi-02",
+      "summary": "SL-mtytg5mi-02：取样 → 切割（依据：完成切割）",
+      "detail": {
+        "from": "取样",
+        "to": "切割",
+        "basis": "完成切割"
+      }
+    },
+    {
+      "id": 75,
+      "at": "2026-09-12T20:06:50.630Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-008",
+      "sliceId": "SL-mtytg5mi-02",
+      "summary": "SL-mtytg5mi-02：切割 → 研磨（依据：完成研磨）",
+      "detail": {
+        "from": "切割",
+        "to": "研磨",
+        "basis": "完成研磨"
+      }
+    },
+    {
+      "id": 76,
+      "at": "2026-09-12T20:06:50.631Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-008",
+      "sliceId": "SL-mtytg5mi-02",
+      "summary": "SL-mtytg5mi-02：研磨 → 染色（依据：完成染色）",
+      "detail": {
+        "from": "研磨",
+        "to": "染色",
+        "basis": "完成染色"
+      }
+    },
+    {
+      "id": 77,
+      "at": "2026-09-12T20:06:50.632Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-008",
+      "sliceId": "SL-mtytg5mi-02",
+      "summary": "SL-mtytg5mi-02：染色 → 观察（依据：完成观察）",
+      "detail": {
+        "from": "染色",
+        "to": "观察",
+        "basis": "完成观察"
+      }
+    },
+    {
+      "id": 78,
+      "at": "2026-09-12T20:06:50.633Z",
+      "actor": "陆川",
+      "action": "观察记录",
+      "batchId": "B2026-008",
+      "sliceId": "SL-mtytg5mi-02",
+      "summary": "SL-mtytg5mi-02 记录观察：碳酸盐化，见细脉状方解石",
+      "detail": {
+        "observation": "碳酸盐化，见细脉状方解石"
+      }
+    },
+    {
+      "id": 79,
+      "at": "2026-09-12T20:06:50.634Z",
+      "actor": "陆川",
+      "action": "交付",
+      "batchId": "B2026-008",
+      "sliceId": "SL-mtytg5mi-02",
+      "summary": "SL-mtytg5mi-02 由 陆川 交付",
+      "detail": {}
+    },
+    {
+      "id": 80,
+      "at": "2026-09-12T20:06:50.635Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-008",
+      "sliceId": "SL-mtytg5mi-03",
+      "summary": "SL-mtytg5mi-03：取样 → 切割（依据：完成切割）",
+      "detail": {
+        "from": "取样",
+        "to": "切割",
+        "basis": "完成切割"
+      }
+    },
+    {
+      "id": 81,
+      "at": "2026-09-12T20:06:50.636Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-008",
+      "sliceId": "SL-mtytg5mi-03",
+      "summary": "SL-mtytg5mi-03：切割 → 研磨（依据：完成研磨）",
+      "detail": {
+        "from": "切割",
+        "to": "研磨",
+        "basis": "完成研磨"
+      }
+    },
+    {
+      "id": 82,
+      "at": "2026-09-12T20:06:50.640Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-008",
+      "sliceId": "SL-mtytg5mi-03",
+      "summary": "SL-mtytg5mi-03：研磨 → 染色（依据：完成染色）",
+      "detail": {
+        "from": "研磨",
+        "to": "染色",
+        "basis": "完成染色"
+      }
+    },
+    {
+      "id": 83,
+      "at": "2026-09-12T20:06:50.641Z",
+      "actor": "陆川",
+      "action": "质量退回",
+      "batchId": "B2026-008",
+      "sliceId": "SL-mtytg5mi-03",
+      "summary": "SL-mtytg5mi-03 判定不合格（缺陷等级：严重）：从「染色」退回「研磨」，原因：磨片厚度不均，需重新研磨",
+      "detail": {
+        "level": "严重",
+        "from": "染色",
+        "to": "研磨",
+        "reason": "磨片厚度不均，需重新研磨"
+      }
+    },
+    {
+      "id": 84,
+      "at": "2026-09-12T20:06:50.642Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-008",
+      "sliceId": "SL-mtytg5mi-03",
+      "summary": "SL-mtytg5mi-03：研磨 → 染色（依据：完成染色）",
+      "detail": {
+        "from": "研磨",
+        "to": "染色",
+        "basis": "完成染色"
+      }
+    },
+    {
+      "id": 85,
+      "at": "2026-09-12T20:06:50.643Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-008",
+      "sliceId": "SL-mtytg5mi-03",
+      "summary": "SL-mtytg5mi-03：染色 → 观察，并记录观察（依据：完成观察）",
+      "detail": {
+        "from": "染色",
+        "to": "观察",
+        "basis": "完成观察"
+      }
+    },
+    {
+      "id": 86,
+      "at": "2026-09-12T20:06:50.644Z",
+      "actor": "陆川",
+      "action": "复检",
+      "batchId": "B2026-008",
+      "sliceId": "SL-mtytg5mi-03",
+      "summary": "SL-mtytg5mi-03 复检不通过：边缘仍有崩缺",
+      "detail": {
+        "passed": false,
+        "note": "边缘仍有崩缺"
+      }
+    },
+    {
+      "id": 87,
+      "at": "2026-09-12T20:06:50.645Z",
+      "actor": "陆川",
+      "action": "复检",
+      "batchId": "B2026-008",
+      "sliceId": "SL-mtytg5mi-03",
+      "summary": "SL-mtytg5mi-03 复检通过：返工合格",
+      "detail": {
+        "passed": true,
+        "note": "返工合格"
+      }
+    },
+    {
+      "id": 88,
+      "at": "2026-09-12T20:06:50.646Z",
+      "actor": "陆川",
+      "action": "交付",
+      "batchId": "B2026-008",
+      "sliceId": "SL-mtytg5mi-03",
+      "summary": "SL-mtytg5mi-03 由 陆川 交付",
+      "detail": {}
+    },
+    {
+      "id": 89,
+      "at": "2026-09-12T20:06:50.647Z",
+      "actor": "陆川",
+      "action": "交付",
+      "batchId": "B2026-008",
+      "sliceId": "SL-mtytg5mi-01",
+      "summary": "SL-mtytg5mi-01 由 陆川 交付",
+      "detail": {}
+    },
+    {
+      "id": 90,
+      "at": "2026-09-12T20:06:50.649Z",
+      "actor": "陆川",
+      "action": "接收登记",
+      "batchId": "B2026-009",
+      "sliceId": null,
+      "summary": "接收批次 B2026-009（越权验证-mtytg5mi / ZK-09 / BX-30），登记切片 1 片，负责人 陆川，计划 2026-10-05",
+      "detail": {
+        "plannedDate": "2026-10-05",
+        "sliceCount": 1
+      }
+    },
+    {
+      "id": 91,
+      "at": "2026-09-12T20:06:50.649Z",
+      "actor": "陆川",
+      "action": "切片登记",
+      "batchId": "B2026-009",
+      "sliceId": "SL-mtytg5mi-X",
+      "summary": "切片 SL-mtytg5mi-X 登记，进入工序「取样」",
+      "detail": {
+        "method": "未染色"
+      }
+    },
+    {
+      "id": 92,
+      "at": "2026-09-12T20:06:50.650Z",
+      "actor": "admin",
+      "action": "工序推进",
+      "batchId": "B2026-009",
+      "sliceId": "SL-mtytg5mi-X",
+      "summary": "SL-mtytg5mi-X：取样 → 切割（依据：管理员代操作）",
+      "detail": {
+        "from": "取样",
+        "to": "切割",
+        "basis": "管理员代操作"
+      }
+    },
+    {
+      "id": 93,
+      "at": "2026-09-12T20:06:50.651Z",
+      "actor": "陆川",
+      "action": "接收登记",
+      "batchId": "B2026-010",
+      "sliceId": null,
+      "summary": "接收批次 B2026-010（并发验证-mtytg5mi / ZK-10 / BX-31），登记切片 1 片，负责人 陆川，计划 2026-10-06",
+      "detail": {
+        "plannedDate": "2026-10-06",
+        "sliceCount": 1
+      }
+    },
+    {
+      "id": 94,
+      "at": "2026-09-12T20:06:50.651Z",
+      "actor": "陆川",
+      "action": "切片登记",
+      "batchId": "B2026-010",
+      "sliceId": "SL-mtytg5mi-C",
+      "summary": "切片 SL-mtytg5mi-C 登记，进入工序「取样」",
+      "detail": {
+        "method": "未染色"
+      }
+    },
+    {
+      "id": 95,
+      "at": "2026-09-12T20:06:50.652Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-010",
+      "sliceId": "SL-mtytg5mi-C",
+      "summary": "SL-mtytg5mi-C：取样 → 切割（依据：准备并发测试）",
+      "detail": {
+        "from": "取样",
+        "to": "切割",
+        "basis": "准备并发测试"
+      }
+    },
+    {
+      "id": 96,
+      "at": "2026-09-12T20:06:50.653Z",
+      "actor": "陆川",
+      "action": "工序推进",
+      "batchId": "B2026-010",
+      "sliceId": "SL-mtytg5mi-C",
+      "summary": "SL-mtytg5mi-C：切割 → 研磨（依据：并发提交 1）",
+      "detail": {
+        "from": "切割",
+        "to": "研磨",
+        "basis": "并发提交 1"
+      }
+    }
+  ],
+  "seq": {
+    "batch": 10,
+    "event": 96
+  }
+}

@@ -1,9 +1,10 @@
 {
-  "name": "zfl-25-core-slice-lab",
+  "name": "core-slice-lab-tracker",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "verify": "node scripts/verify.mjs"
   }
 }

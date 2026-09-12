@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>岩芯样品制备与质量追踪系统</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div id="toast" class="toast" hidden></div>
+
+  <section id="login-view" class="login-wrap" hidden>
+    <form id="login-form" class="login-card">
+      <div class="brand">
+        <svg viewBox="0 0 48 48" width="44" height="44" aria-hidden="true">
+          <circle cx="24" cy="24" r="21" fill="none" stroke="#526f43" stroke-width="3"/>
+          <path d="M24 3v42M3 24h42M10.5 10.5l27 27M37.5 10.5l-27 27" stroke="#8a9b7a" stroke-width="1.6"/>
+          <circle cx="24" cy="24" r="7" fill="#526f43"/>
+        </svg>
+        <h1>岩芯样品制备与质量追踪系统</h1>
+        <p>批次接收 · 切片工序 · 质量退回与复检 · 交付审计</p>
+      </div>
+      <label>用户名</label>
+      <input name="username" required autocomplete="username" placeholder="如：陆川">
+      <label>密码</label>
+      <input name="password" type="password" required autocomplete="current-password" placeholder="••••••">
+      <button type="submit">登 录</button>
+      <p class="hint">演示账号：admin / admin123（管理员），陆川 / pass123，陈岩 / pass123</p>
+    </form>
+  </section>
+
+  <div id="app-view" hidden>
+    <header class="topbar">
+      <div class="topbar-brand">
+        <svg viewBox="0 0 48 48" width="34" height="34" aria-hidden="true">
+          <circle cx="24" cy="24" r="21" fill="none" stroke="#526f43" stroke-width="3"/>
+          <path d="M24 3v42M3 24h42M10.5 10.5l27 27M37.5 10.5l-27 27" stroke="#8a9b7a" stroke-width="1.6"/>
+          <circle cx="24" cy="24" r="7" fill="#526f43"/>
+        </svg>
+        <div>
+          <h1>岩芯样品制备与质量追踪系统</h1>
+          <div class="muted">接收登记 → 取样 → 切割 → 研磨 → 染色 → 观察 → 交付，全程留痕</div>
+        </div>
+      </div>
+      <div class="topbar-user">
+        <span id="me-chip" class="chip"></span>
+        <button id="refresh-btn" class="ghost">刷新</button>
+        <button id="logout-btn" class="ghost">退出登录</button>
+      </div>
+    </header>
+
+    <main>
+      <aside>
+        <form id="batch-form" class="panel">
+          <h2>接收 · 批次登记</h2>
+          <label>项目</label><input name="project" required placeholder="如：西岭金矿勘探">
+          <label>钻孔</label><input name="borehole" required placeholder="如：ZK-08">
+          <label>箱号</label><input name="coreBox" required placeholder="如：BX-21">
+          <label>深度</label><input name="depth" required placeholder="如：210.5-215.0m">
+          <label>负责人</label><select name="owner" required></select>
+          <label>计划日期</label><input name="plannedDate" type="date" required>
+          <label>切片清单（每行一片：编号, 制片方法）</label>
+          <textarea name="slices" required placeholder="XL-01, 茜素红染色&#10;XL-02, 未染色"></textarea>
+          <button type="submit">接收并登记批次</button>
+        </form>
+
+        <section class="panel">
+          <h2>审计日志 <button id="audit-refresh" class="ghost small" type="button">刷新</button></h2>
+          <input id="audit-filter" placeholder="按批次 / 切片 / 操作人 / 动作筛选">
+          <div class="audit-wrap">
+            <table class="audit-table">
+              <thead><tr><th>时间</th><th>操作人</th><th>动作</th><th>对象</th><th>摘要</th></tr></thead>
+              <tbody id="audit-body"></tbody>
+            </table>
+          </div>
+        </section>
+      </aside>
+
+      <section class="content">
+        <div class="stats" id="stats"></div>
+        <div id="batches" class="batch-list"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>
